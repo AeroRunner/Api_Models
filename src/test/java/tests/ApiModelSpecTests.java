@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static spec.Spec.*;
 
-public class ApiTestsModel extends BaseTest {
+public class ApiModelSpecTests extends BaseTest {
     @Test
     @Tag("api")
     @DisplayName("Create new user")
