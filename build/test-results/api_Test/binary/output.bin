@@ -1,0 +1,60 @@
+Body:			<none>
+/Request URI:	https://reqres.in/api/unknown/23
+Headers:		Accept=*/*
+{
+    
+}
+Body:
+{
+    "name": "Dmitrii",
+    "job": "Engineer"
+}
+*Request URI:	https://reqres.in/api/users
+Headers:		Accept=*/*
+#				Content-Type=application/json
+{
+    "name": "Dmitrii",
+    "job": "Engineer",
+    "id": "267",
+,    "createdAt": "2024-02-01T03:13:18.039Z"
+}
+Body:
+{
+     "name": "Dmitrii Elizarov",
+    "job": "Senior Engineer"
+}
+,Request URI:	https://reqres.in/api/users/2
+Headers:		Accept=*/*
+#				Content-Type=application/json
+{
+     "name": "Dmitrii Elizarov",
+    "job": "Senior Engineer",
+,    "updatedAt": "2024-02-01T03:13:18.284Z"
+}
+Body:
+{
+#    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+-Request URI:	https://reqres.in/api/register
+Headers:		Accept=*/*
+#				Content-Type=application/json
+{
+    "id": 4,
+!    "token": "QpwL5tke4Pnpja7X4"
+}
+Body:			<none>
+,Request URI:	https://reqres.in/api/users/2
+Headers:		Accept=*/*
+Request method:	DELETE
+,Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+

@@ -2,16 +2,15 @@ plugins {
     id 'java'
     id 'io.qameta.allure' version '2.11.2'
     id "io.freefair.lombok" version "6.0.0-m2"
+    id "org.gradle.test-retry" version "1.5.8"
 }
 
 repositories {
     mavenCentral()
 }
 
-
 def restAssuredVersion = "5.3.1",
     allureVersion = "2.21.0"
-
 
 allure {
     report {
@@ -50,8 +49,18 @@ tasks.withType(Test) {
     systemProperties(System.getProperties())
     testLogging {
         lifecycle {
-            events "started", "skipped", "failed", "standard_error", "standard_out"
+            events "started", "skipped", "passed"
             exceptionFormat "short"
         }
+    }
+}
+task api_Test(type: Test) {
+    retry{
+        failOnPassedAfterRetry = true
+        maxFailures = 20
+        maxRetries = 20
+    }
+    useJUnitPlatform {
+        includeTags("api")
     }
 }
