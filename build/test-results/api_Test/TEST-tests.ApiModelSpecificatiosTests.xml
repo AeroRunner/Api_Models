@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.ApiModelSpecificatiosTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-17T11:48:41" hostname="DESKTOP-6725RU0" time="1.211">
+  <properties/>
+  <testcase name="Registration Test" classname="tests.ApiModelSpecificatiosTests" time="1.211"/>
+  <system-out><![CDATA[Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+Request URI:	https://reqres.in/api/register
+Headers:		Accept=*/*
+				Content-Type=application/json
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

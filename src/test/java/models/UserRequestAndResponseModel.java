@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class RegistrationResponseModel {
-    String id, token;
+public class UserRequestAndResponseModel {
+    String name, job;
 }

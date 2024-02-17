@@ -6,5 +6,5 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class RegistrationRequestModel {
-    String email,password;
+    String email, password;
 }

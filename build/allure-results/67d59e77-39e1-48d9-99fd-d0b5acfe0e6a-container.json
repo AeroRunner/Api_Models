@@ -1,0 +1,1 @@
+{"uuid":"67d59e77-39e1-48d9-99fd-d0b5acfe0e6a","name":"ApiModelSpecTests","children":["3a0d7e0d-d323-4cb5-9a3a-89e91835090d"],"befores":[{"name":"setpUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1708169884413,"stop":1708169884749}],"afters":[],"start":1708169884392,"stop":1708169886112}
